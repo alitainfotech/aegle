@@ -1,0 +1,116 @@
+.nutshell-learn-btn {
+  box-sizing: border-box;
+  background: none;
+  position: relative;
+  width: 135px;
+  height: 50px;
+  border: 2px solid #ce9531;
+  border-radius: 50px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ce9531;
+  margin: 0 auto;
+  display: block;
+}
+
+
+.card-svg {
+  text-align: center;
+}
+
+h2.aegle-header {
+  font-family: "Rufina";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 51px;
+  text-align: center;
+  color: #0e4656;
+}
+.aegle-content {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #6f6f6f;
+}
+
+.card-text{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  /* or 23px */
+  
+  text-align: center;
+  
+  color: #6F6F6F;
+}
+
+.aegle-inner {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 30px 10px rgb(0 0 0 / 5%);
+  border-radius: 10px;
+  margin-top: -120px;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+p.aegle-content {font-size: 14px;line-height: 20px;}
+.aegle-main-cnt {margin-bottom: 50px;}
+.nutshell-card .card-body {
+  padding: 60px 20px;
+  height: auto;
+  border: 0;
+  background: #FBEED5;
+  border-radius: 10px;
+  width: 430px;
+}
+.card-svg {margin-bottom: 21px;}
+.nutshell-card .card-subtitle h4 {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #0E4656;
+}
+.card-text p {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #6F6F6F;
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+.div-btn {
+  display: block;
+  margin-top: 40px;
+}
+div.nutshell-card {
+  border: 0;
+  padding: 0 25px;
+}
+
+@media (min-width:1400px) and (max-width:1799px){
+h2.aegle-header {font-size: 48px;line-height: 59px;margin-bottom: 8px;}
+p.aegle-content {font-size: 24px;line-height: 29px;margin-bottom: 0;}
+.aegle-main-cnt {margin-bottom: 60px;}
+}
+
+
+@media (min-width:1800px){
+.aegle-main-cnt {margin-bottom: 73px;}
+}
+
+

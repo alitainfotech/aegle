@@ -1,0 +1,171 @@
+*{
+  margin-bottom: 0%;
+}
+.footer{
+  background: #0E4656;
+}
+.footer-text{
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+
+color: rgba(255, 255, 255, 0.8);
+
+}
+li{
+  list-style:none;
+}
+.list-header{
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+li.lst{
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: rgba(255, 255, 255, 0.8);
+}
+.fa-inner>.row>.about-col.col {width: 40%;}
+
+.fa-inner {}
+
+.fa-inner>.row {}
+
+.fa-inner>.row>.col {width: 20%;flex: initial;}
+
+.footer-logo {margin-bottom: 36px;}
+
+.footer-logo img {max-width: 93px;}
+
+p.p-fa-text {font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+
+color: rgba(255, 255, 255, 0.8);max-width: 296px;margin-bottom: 14px;}
+
+p.footer-email {font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 123.5%;
+/* or 22px */
+
+letter-spacing: 0.02em;
+
+color: #FFFFFF;margin: 0;}
+
+h4.fa-head {font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #FFFFFF;margin-top: 15px;margin-bottom: 22px;}
+
+ul.Product-list-grp {padding: 0;margin: 0;list-style: none;}
+
+ul.Product-list-grp li a {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  transition: ease-in-out .5s;
+}
+.fa-inner {
+  padding-top: 100px;
+  padding-bottom: 86px;
+}
+ul.Product-list-grp li {
+  margin-bottom: 14px;
+}
+.fa-copyright {display: flex;flex-wrap: wrap;justify-content: space-between;border-top: 1px solid rgba(255, 255, 255, 0.3);padding-top: 30px;padding-bottom: 30px;}
+
+p.p-co {margin: 0;font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+/* light grey - text */
+
+color: rgba(255, 255, 255, 0.5);}
+
+ul.Product-list-grp li a:hover {
+  color: #E7B65F;
+}
+p.p-add {font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: rgba(255, 255, 255, 0.5);margin: 0;}
+
+@media (min-width:1800px){
+  footer.footer.fa-cstm .container {max-width: 1620px;}
+}
+
+
+
+
+@media (min-width:1200px) and (max-width:1400px){
+  p.p-fa-text {font-size: 14px;}
+  p.p-fa-text {font-size: 14px;}
+  ul.Product-list-grp li a {font-size: 14px;}
+  .Product-list-grp li {margin-bottom: 10px;}
+  .fa-inner {padding-top: 70px;padding-bottom: 56px;}
+
+}
+
+
+@media (min-width:992px) and (max-width:1199px){
+  p.footer-email {font-size: 14px;}
+  p.p-fa-text {font-size: 14px;}
+  ul.Product-list-grp li a {font-size: 14px;}
+  }
+  
+
+@media (max-width:991px){
+.fa-inner {padding-top: 50px;padding-bottom: 50px;}
+.fa-inner>.row>.about-col.col {width: 100%;margin-bottom: 20px;}
+.footer-logo {margin-bottom: 10px;}
+p.p-fa-text {font-size: 14px;line-height: 22px;margin-bottom: 10px;}
+p.footer-email {font-size: 14px;}
+h4.fa-head {font-size: 15px;}
+ul.Product-list-grp li a {font-size: 14px;}
+.fa-copyright {padding-top: 20px;padding-bottom: 20px;}
+.fa-inner>.row>.col {width: 33.33%;}
+
+}
+
+@media (max-width:767px){
+  ul.Product-list-grp li {margin-bottom: 8px;}
+  h4.fa-head {font-size: 15px;line-height: 20px;margin-bottom: 0;min-height: 50px;}
+  .fa-inner {padding-bottom: 30px;}
+  p.p-co {margin-bottom: 10px;}
+}
