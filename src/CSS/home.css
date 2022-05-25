@@ -22,6 +22,7 @@
   font-size: 18px;
   line-height: 22px;
   color: #ffffff;
+  transition: ease-in-out .5s;
 }
 .home-learn-btn {
   font-family: "Roboto";
@@ -33,6 +34,10 @@
   background: none;
   border: none;
   color: #ffffff;
+  transition: ease-in-out .5s;
+}
+button.home-learn-btn:hover {
+  color: #e1a945;
 }
 .nav-login-btn {
   width: 183px;
@@ -46,7 +51,15 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
-  /* identical to box height */
+  transition: ease-in-out .5s;
+}
+.nav-login-btn:Hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  -webkit-box-shadow: 0 13px 27px 0 rgb(255 255 255 / 15%);
+  box-shadow: 0 13px 27px 0 rgb(255 255 255 / 15%);
+  color: #fff;
+  border-radius: 4px;
 }
 .nav-li > a {
   font-family: "Lato";
@@ -54,9 +67,14 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
-  /* identical to box height */
-
+  transition: ease-in-out .5s;
   color: #ffffff !important;
+}
+.menu-wrapper .navbar-nav li a:hover {
+  color: #e1a945 !important;
+}
+.header-r .navbar-nav li a.nav-link.contactus:hover {
+  color: #fff !important;
 }
 .content {
   width: 810px;
@@ -112,7 +130,12 @@ span.beta {background: rgba(255, 255, 255, 0.2);border-radius: 5px;font-family: 
 .banner-wrapper {position: relative;padding-top: 21px;}
 
 
-
+.home-contact-us:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 13px 27px 0 rgb(255 255 255 / 15%);
+  color: #fff;
+  border-radius: 4px;
+}
 
 
 

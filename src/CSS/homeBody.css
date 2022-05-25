@@ -11,9 +11,17 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
-  /* identical to box height */
+  transition: ease-in-out .5s;
 
   color: #0e4656;
+}
+.homebody-learn-btn:Hover {
+  background: #0e4656;
+  transform: translateY(-5px);
+  box-shadow: 0 13px 27px 0 rgb(255 255 255 / 15%);
+  color: #fff;
+  border-radius: 4px;
+  border-color: #0e4656;
 }
 .body-header {
   font-family: "Lato";
